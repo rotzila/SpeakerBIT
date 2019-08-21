@@ -122,6 +122,10 @@ There are two algorithms, one for the [Frequency](https://github.com/rotzila/Spe
 
 To house the electronics, three parts were designed, namely a [top](https://github.com/rotzila/SpeakerBIT/blob/master/box/top.stl), a [bottom](https://github.com/rotzila/SpeakerBIT/blob/master/box/bottom.stl) and a [button](https://github.com/rotzila/SpeakerBIT/blob/master/box/button.CATPart), to encapsulate all the hardware used in this prototype.
 
+## Video
+
+[Video here](https://youtu.be/3fQIj693UAw)
+
 ## Acknowledgments
 
 This project was developed at the IT - Instituto de Telecomunicações, Lisbon pole, during an internship under the supervision of Prof. Hugo Plácido da Silva.
