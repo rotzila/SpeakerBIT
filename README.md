@@ -39,13 +39,12 @@ The following image ilustrates an example of the EMG's electrodes placement, whe
 
 ![Example electrode  placement for EMG](https://github.com/rotzila/SpeakerBIT/blob/master/images/emg_placement.jpg "Example electrode placement for EMG")
 
-For detailed information about the EMG and electrodes placement guidelines, please refer to the following resources:
-[SENIAM EMG Guidelines](http://www.seniam.org/)
+For detailed information about the EMG and electrodes placement guidelines, please refer to the [SENIAM EMG Guidelines](http://www.seniam.org/).
 
 
 ### Calibration <a name="calibration"></a>
 
-Given that each user has slightly difference baseline and activation levels, this device has been fitted with a calibration mode. For instructions on how to activate and deactivate the calibration mode, please refer to Section [Device Overview](#bottom) above.
+Given that each user has slightly different baseline and activation levels, this device has been fitted with a calibration mode. For instructions on how to activate and deactivate the calibration mode, please refer to Section [Device Overview](#bottom) above.
 
 When in calibration mode, the device is recording the minimum and maximum amplitude values. During this period the user must be in a rest state for approximately 3 seconds, after this period the user should perform a Maximum Voluntary Contraction (MVC). 
 
@@ -114,7 +113,7 @@ The connection to the BITalino need to be made to the analog channle in the BITa
 
 ### Algorithms
 
-There are two algorithms, one for the [Frequency](https://github.com/rotzila/SpeakerBIT/blob/master/music-muscle-freq/music-muscle-freq.ino) and another for the [Song](https://github.com/rotzila/SpeakerBIT/blob/master/music-muscle-song/music-muscle-song.ino) version. The following image depicts the signals obtained from the raw data output and after the algorithm implemented in the device firmware.
+There are two algorithms, one for the [Frequency](https://github.com/rotzila/SpeakerBIT/blob/master/music-muscle-freq/music-muscle-freq.ino) and another for the [Melody](https://github.com/rotzila/SpeakerBIT/blob/master/music-muscle-song/music-muscle-song.ino) version. The following image depicts the signals obtained from the raw data output and after the algorithm implemented in the device firmware.
 
 ![Example EMG Signals](https://github.com/rotzila/SpeakerBIT/blob/master/images/raw_vs_smo.png "Example EMG Signals")
 
@@ -130,3 +129,5 @@ This project was developed at the IT - Instituto de Telecomunicações, Lisbon p
 ## References
 
 Pedro Miguel Russo. [Development and Testing of Algorithms for Real-Time Feature Extraction from Biosignals](https://github.com/rotzila/Real-Time-Feature-Extraction-from-Biosignals). BSc work, Escola Superior de Tecnologia de Setúbal - Politécnico de Setúbal, 2019.
+
+Hugo Plácido da Silva, Ana Fred and Raúl Martins. [Biosignals for Everyone](https://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6926682). IEEE Pervasive Computing, 13(4):64-71, 2014
