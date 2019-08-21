@@ -40,7 +40,7 @@ The following image ilustrates an example of the EMG's electrodes placement, whe
 ![Example electrode  placement for EMG](https://github.com/rotzila/SpeakerBIT/blob/master/images/emg_placement.jpg "Example electrode placement for EMG")
 
 For detailed information about the EMG and electrodes placement guidelines, please refer to the following resources:
-![SENIAM EMG Guidelines](http://www.seniam.org/ "SENIAM EMG Guidelines")
+[SENIAM EMG Guidelines](http://www.seniam.org/)
 
 
 ### Calibration <a name="calibration"></a>
