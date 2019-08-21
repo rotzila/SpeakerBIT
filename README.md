@@ -22,13 +22,13 @@ The following sub-sections summarize the main features of the SpeakerBIT prototy
 
 4. *Electrode Cables:* These cables enable the interface between the sensor and the user's body; the cables are represented by red (IN+), black (IN-) and white (REF) as a way to facilitate the placement on the body.
 
-![SpeakerBIT Top View](https://github.com/rotzila/music-muscle/blob/master/images/prototype_image_1.jpg "SpeakerBIT Top View")
+![SpeakerBIT Top View](https://github.com/rotzila/SpeakerBIT/blob/master/images/prototype_image_1.jpg "SpeakerBIT Top View")
 
 
 ### Bottom <a name="bottom"></a>
 5. *Calibration Button:* Pressing this button for 2 seconds will activate the calibration mode; a LED turns on signaling that the calibration mode is activated (see Section [Calibration](#calibration) below). To exit the calibration mode, the button needs to be pressed again. 
 
-![SpeakerBIT Bottom View](https://github.com/rotzila/music-muscle/blob/master/images/prototype_image_2.jpg "SpeakerBIT Bottom View")
+![SpeakerBIT Bottom View](https://github.com/rotzila/SpeakerBIT/blob/master/images/prototype_image_2.jpg "SpeakerBIT Bottom View")
 
 
 ### Electrode Placement
@@ -37,7 +37,7 @@ over the muscle belly (aligned with the muscle fibers).
 
 The following image ilustrates an example of the EMG's electrodes placement, where the black (IN-) and red (IN+) eletrodes are appliedd on the muscle that is being tested, the white (REF) eletrode are placed in an area were there is no eletric activity, namely the elbow. 
 
-![Example electrode  placement for EMG](https://github.com/rotzila/music-muscle/blob/master/images/emg_placement.jpg "Example electrode placement for EMG")
+![Example electrode  placement for EMG](https://github.com/rotzila/SpeakerBIT/blob/master/images/emg_placement.jpg "Example electrode placement for EMG")
 
 For detailed information about the EMG and electrodes placement guidelines, please refer to the following resources:
 ![SENIAM EMG Guidelines](http://www.seniam.org/ "SENIAM EMG Guidelines")
@@ -70,25 +70,37 @@ In this version there is a default melody pre-programed on the device, which pla
 #### Tools
 
 [  ] 3D printer
+
 [  ] Glue
+
 [  ] Soldering iron
+
 [  ] Solder
 
 #### 3D Printed Parts
 
 [  ] Bottom part
+
 [  ] Top part
+
 [  ] Button
 
 #### Hardware
 
 [  ] [µduino Board](https://www.crowdsupply.com/uduino/uduino/updates/update-on-production-and-delivery)
+
 [  ] [Groove Speaker](http://wiki.seeedstudio.com/Grove-Speaker/)
+
 [  ] [Potenciometer](https://www.sparkfun.com/products/9806?_ga=2.258241545.2017274394.1565780560-1270259391.1560514473)
+
 [  ] [BITalino LED](https://plux.info/barebone-actuators/19-light-emitting-diode-led.html?search_query=LED&results=32)
+
 [  ] [BITalino Pushbutton](https://plux.info/barebone-sensors/15-pushbutton-btn.html?search_query=button&results=7)
+
 [  ] [BITalino EMG Sensor](https://plux.info/barebone-sensors/10-electrocardiography-ecg-sensor.html?search_query=emg+sensor&results=155)
+
 [  ] [3-Lead Electrode Cable](https://plux.info/cables/226-3-lead-electrode-cable.html)
+
 [  ] [Pre-Gelled Self-Adhesive Disposable Ag/AgCl](https://plux.info/electrodes/59-pre-gelled-self-adhesive-disposable-agagcl-eletrodes.html)
 
 
@@ -97,19 +109,19 @@ In this version there is a default melody pre-programed on the device, which pla
 Here is the schematic used in this prototype. Instead of a arduino UNO it was used the µduino, the smallest version of arduinos. It is the same connections. [This link](https://www.crowdsupply.com/uduino/uduino/updates/pinout-and-more) will help you know where to connect each cable in the µduino board.
 The connection to the BITalino need to be made to the analog channle in the BITalino board.
 
-![SpeakerBIT Circuit Schematics](https://github.com/rotzila/music-muscle/blob/master/images/prototype_schematic_1.png "SpeakerBIT Circuit Schematics")
+![SpeakerBIT Circuit Schematics](https://github.com/rotzila/SpeakerBIT/blob/master/images/prototype_schematic_1.png "SpeakerBIT Circuit Schematics")
 
 
 ### Algorithms
 
-There are two algorithms, one for the [Frequency](https://github.com/rotzila/music-muscle/tree/master/music-muscle-freq) and another for the [Song](https://github.com/rotzila/music-muscle/tree/master/music-muscle-song) version. The following image depicts the signals obtained from the raw data output and after the algorithm implemented in the device firmware.
+There are two algorithms, one for the [Frequency](https://github.com/rotzila/SpeakerBIT/blob/master/music-muscle-freq/music-muscle-freq.ino) and another for the [Song](https://github.com/rotzila/SpeakerBIT/blob/master/music-muscle-song/music-muscle-song.ino) version. The following image depicts the signals obtained from the raw data output and after the algorithm implemented in the device firmware.
 
-![Example EMG Signals](https://github.com/rotzila/music-muscle/blob/master/images/raw_vs_smo.png "Example EMG Signals")
+![Example EMG Signals](https://github.com/rotzila/SpeakerBIT/blob/master/images/raw_vs_smo.png "Example EMG Signals")
 
 
 ### 3D printed parts
 
-To house the electronics, three parts were designed, namely a [top](https://github.com/rotzila/music-muscle/blob/master/box/top.stl), a [bottom](https://github.com/rotzila/music-muscle/blob/master/box/bottom.stl) and a [button](https://github.com/rotzila/music-muscle/blob/master/box/button.stl), to encapsulate all the hardware used in this prototype.
+To house the electronics, three parts were designed, namely a [top](https://github.com/rotzila/SpeakerBIT/blob/master/box/top.stl), a [bottom](https://github.com/rotzila/SpeakerBIT/blob/master/box/bottom.stl) and a [button](https://github.com/rotzila/SpeakerBIT/blob/master/box/button.CATPart), to encapsulate all the hardware used in this prototype.
 
 ## Acknowledgments
 
