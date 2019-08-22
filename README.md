@@ -26,7 +26,7 @@ The following sub-sections summarize the main features of the SpeakerBIT prototy
 
 
 ### Bottom <a name="bottom"></a>
-5. *Calibration Button:* Pressing this button for 2 seconds will activate the calibration mode; a LED turns on signaling that the calibration mode is activated (see Section [Calibration](#calibration) below). To exit the calibration mode, the button needs to be pressed again. 
+5. *Calibration Button:* Pressing this button for 2 seconds will activate the calibration mode; a LED turns on signaling that the calibration mode is activated (see Section [Calibration](#calibration) below). To exit the calibration mode, the button needs to be pressed again. Pressing the button for 10 seconds will reset the calibration values to a range from 0.02mV to 0.21mV.
 
 ![SpeakerBIT Bottom View](https://github.com/rotzila/SpeakerBIT/blob/master/images/prototype_image_2.jpg "SpeakerBIT Bottom View")
 
@@ -49,6 +49,8 @@ Given that each user has slightly different baseline and activation levels, this
 When in calibration mode, the device is recording the minimum and maximum amplitude values. During this period the user must be in a rest state for approximately 3 seconds, after this period the user should perform a Maximum Voluntary Contraction (MVC). 
 
 Exiting the calibration mode will record the calibration values in the internal memory of the device and adapt the output range to the newly determined values. This range will give a range from 0 to 100% using the calibration; given that the values are stored in the onboard memory, upon turning off the device the calibration will be recovered in subsequent uses.
+
+
 
 ## Source Code Variants
 
