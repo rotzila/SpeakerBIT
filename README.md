@@ -112,6 +112,22 @@ The connection to the BITalino need to be made to the analog channle in the BITa
 
 ![SpeakerBIT Circuit Schematics](https://github.com/rotzila/SpeakerBIT/blob/master/images/prototype_schematic_1.png "SpeakerBIT Circuit Schematics")
 
+### Montage example.
+Top View Interior
+
+<img src="https://github.com/rotzila/SpeakerBIT/blob/master/images/top.jpeg" width="500" height="500">
+
+Bottom View Interior
+
+<img src="https://github.com/rotzila/SpeakerBIT/blob/master/images/bot.jpeg" width="500" height="500">
+
+Side View Interior
+
+<img src="https://github.com/rotzila/SpeakerBIT/blob/master/images/side_1.jpeg" width="500" height="500">
+
+Side View Interior
+
+<img src="https://github.com/rotzila/SpeakerBIT/blob/master/images/side_2.jpeg" width="500" height="500">
 
 ### Algorithms
 
