@@ -79,7 +79,7 @@ void loop() {
   }
   else if((diffButton==1)&&(millis()-firstClick>=10000)&&(realState==1)){
     EEPROM.write(addr, 5);
-    EEPROM.write(addr2, 60);
+    EEPROM.write(addr2, 120);
 
     for (int i=0; i<3; i++){
     digitalWrite(led,HIGH);
